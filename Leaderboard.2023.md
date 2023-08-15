@@ -1,19 +1,11 @@
-<!-- Edit to set working directory-->
-<!-- Get libraries situated-->
-<!-- update manifest, formatted in the following way:
- "team number"  "division"  "captain"   "Your github handle"    "members"   "Display pseudonym for rankings"    "e-mails"   "match?"    "size"  "Done?"-->
-<!--Leaderboard setup-->
-
 # Leaderboard for GIDS Biomedical Data Hackathon 2023
 
--   **time stamp:** “11 August, 2023 20:05:35”
+-   **time stamp:** “14 August, 2023 22:44:28”
 
-<!--Read in list of github handles, retrieve predictions, score-->
-
-| pseudonym | TP  | TN    | FP   | FN   |     MCC |
-|:----------|:----|:------|:-----|:-----|--------:|
-| TEST      | 342 | 15688 | 2374 | 2550 | -0.0135 |
-| FLY       | 342 | 15688 | 2374 | 2550 | -0.0135 |
+| pseudonym    | TP  | TN    | FP   | FN   |     MCC |
+|:-------------|:----|:------|:-----|:-----|--------:|
+| yeastbeast   | 342 | 15688 | 2374 | 2550 | -0.0135 |
+| testonthefly | 342 | 15688 | 2374 | 2550 | -0.0135 |
 
 \****Confusion matrix categories:***
 
@@ -38,4 +30,45 @@ incorrect)
     handle yet, or there may be an issue with your registration. Please
     open an issue or email the organizers.
 
-<!-- Get threshold for better than random guessing-->
+*The following teams have bad urls at:
+<https://raw.githubusercontent.com/_CAPTAIN.HANDLE_/Hackathon-Summer-2023/main/prediction/prediction.csv>*
+
+| x                       |
+|:------------------------|
+| CookieMonster           |
+| DataMedics              |
+| CIV                     |
+| SKS_Cube                |
+| NATS                    |
+| DMMH                    |
+| Rubber Cell             |
+| ZhongZaiCanYu           |
+| AveragePitaEnjoyers     |
+| KD                      |
+| wizard                  |
+| mavericks               |
+| NW_KD_EL                |
+| MF_ZS                   |
+| Default                 |
+| Corti                   |
+| El Aquelarre de A.R.N.  |
+| eNovice123              |
+| Valiant                 |
+| whatsthesecret          |
+| OpenhAImmers            |
+| Tabassum                |
+| GAC Soldiers            |
+| QQ                      |
+| MLbeginners             |
+| DrJones                 |
+| les MES                 |
+| PY                      |
+| Jun                     |
+| Les MES                 |
+| athena                  |
+| The Selfish Fruit Flies |
+| Prophetic Analysts      |
+| ant_on                  |
+| Spartans                |
+| Megalomania             |
+| peacewarriors           |
