@@ -17,7 +17,7 @@
 - Information on AnnData objects that are part of the Scanpy Python package can be found [here.](https://scanpy.readthedocs.io/en/stable/api.html#reading)
 -And information on installing Scanpy is [here.](https://scanpy.readthedocs.io/en/stable/installation.html)
 
-- For both files, UMIs (single cells) are indicated by 16 bp DNA barcodes and genes by their names. An additional file is provided: meta.csv, which contains training data for 1000 cells (UMIs) and whether they are singlets (0) or doublets (1). Importantly, the training data are randomly sampled from the full data and thus provides an estimate of the true fraction of doublets.
+- For both files, UMIs (single cells) are indicated by 16 bp DNA barcodes and genes by their names. An additional file is provided: training.csv, which contains training data for 1000 cells (UMIs) and whether they are singlets (0) or doublets (1). Importantly, the training data are randomly sampled from the full data and thus provides an estimate of the true fraction of doublets.
 
 - The entire data set is represented by 21,954 UMIs and 25,269 genes.
 
